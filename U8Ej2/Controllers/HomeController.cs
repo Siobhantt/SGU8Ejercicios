@@ -13,10 +13,9 @@ namespace U8Ej2.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(String nombre)
+        public IActionResult Index(String iname)
         {
-
-            ViewBag.Nombre = nombre;
+            ViewBag.Nombre = iname;
             return View("Saludo");
         }
 
