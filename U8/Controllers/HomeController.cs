@@ -22,7 +22,7 @@ namespace U8.Controllers
         public IActionResult Saludo(String nombre)
         {
             //la viewbag que mostrará el nombre en la vista saludo
-            ViewBag.nombre = nombre;
+            ViewBag.Nombre = nombre;
             return View("Saludo");
         }
 
